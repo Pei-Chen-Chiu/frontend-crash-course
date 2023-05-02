@@ -7,7 +7,8 @@
 
 ---
 ### Codepen
+* [Landing Page](https://codepen.io/Pei-Chen-Chiu/pen/jOeGKaw)
 * [About Us](https://codepen.io/Pei-Chen-Chiu/pen/XWxezrG)
 * [Categories](https://codepen.io/Pei-Chen-Chiu/pen/gOBGXQe)
 * [Testimonial](https://codepen.io/Pei-Chen-Chiu/pen/XWxeVQe)
-* [Footer](https://codepen.io/Pei-Chen-Chiu/pen/LYgzQNX?editors=1100)
+* [Footer](https://codepen.io/Pei-Chen-Chiu/pen/LYgzQNX)
