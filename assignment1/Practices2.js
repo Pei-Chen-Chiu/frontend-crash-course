@@ -82,10 +82,10 @@ if (no >= min && no <= max) {
 
 // 6. Declare a variable called year and check the year is leap year or not.
 
-let year =2024;
+let year =1900;
 // 是 4 非 100 的倍數 閏年
 // 是 100 非 400 倍數 平年
-if (year % 4 === 0 && (year%100===0&&!year%400)) {
+if (year % 4 === 0 && (year % 100 !== 0 || year % 400 === 0)) {
     console.log(`${year} is a leap year`);
 } else {
     console.log(`${year} is not a leap year`);
