@@ -1,3 +1,5 @@
+// if-else
+
 // 1. Declare a variable called age and show ‘can vote’ if age >= 18, show ‘can’t vote’ if age < 18
 // let age = parseInt(prompt('Please enter your age:'), 10);
 let age = 20;
@@ -83,8 +85,7 @@ if (no >= min && no <= max) {
 // 6. Declare a variable called year and check the year is leap year or not.
 
 let year =1900;
-// 是 4 非 100 的倍數 閏年
-// 是 100 非 400 倍數 平年
+
 if (year % 4 === 0 && (year % 100 !== 0 || year % 400 === 0)) {
     console.log(`${year} is a leap year`);
 } else {
