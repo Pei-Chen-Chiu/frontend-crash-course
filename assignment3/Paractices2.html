@@ -1,0 +1,56 @@
+<head>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<style>
+    button {
+        width: 140px;
+        border: 0px;
+        border-radius: 3px;
+        background-color: aliceblue;
+        padding: 6px;
+    }
+
+    input {
+        width: 140px;
+        border: 0px;
+        border-radius: 3px;
+        background-color: aliceblue;
+        padding: 5px;
+    }
+
+    #block {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .block {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        max-width: 300px;
+        gap: 10px;
+        background-color: palevioletred;
+    }
+</style>
+
+<body>
+    <div id="block">
+        <div id="activity" class="block">
+            <h4>Activity Suggestion</h4>
+            <button>Activity Suggestion</button>
+            <p></p>
+        </div>
+
+        <div id="Predict" class="block">
+            <h4>Predict the age</h4>
+            <label>Enter your name: </label>
+            <input></input>
+            <button>Predict</button>
+            <span>Result: </span>
+            <p></p>
+        </div>
+    </div>
+</body>
+<script src="./Paractices2.js"></script>

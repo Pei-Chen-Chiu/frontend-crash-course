@@ -1,0 +1,163 @@
+p {
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  font-size: 18px;
+  font-weight: 550;
+}
+
+#block {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+}
+
+#Counter {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  width: 250px;
+  height: 150px;
+  background-color: antiquewhite;
+  padding: 20px 10px;
+}
+
+#btBlock {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+#Counter input {
+  width: 70px;
+  border-radius: 5px;
+  border: none;
+  background: #ffcecc;
+  text-align: center;
+}
+
+#Counter input:hover {
+  background: #ffaca9;
+}
+
+#Counter button {
+  width: 50px;
+  color: white;
+  background-color: #008232;
+
+  padding: 6px 0px;
+  font-size: 13px;
+  border-radius: 5px;
+  border: none;
+}
+
+#Counter button:hover {
+  background-color: #016b2a;
+}
+
+#todo {
+  background: pink;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-width: 280px;
+  max-width: 280px;
+
+  padding: 15px 20px 0px 20px;
+}
+
+#todo #addList {
+  min-width: 100%;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  left: 5px;
+  padding-top: 15px;
+  gap: 5px;
+}
+
+#todo textarea {
+  width: 100%;
+  min-height: 35px;
+  height: auto;
+  border: none;
+  border-radius: 3px;
+  padding: 5px 9px;
+  overflow: hidden;
+  resize: none;
+}
+
+#todo textarea:hover {
+  background-color: rgb(226, 226, 226);
+}
+
+#todo button {
+  background: #9747f1;
+  height: auto;
+  min-width: 40px;
+  min-height: 36px;
+  border-radius: 3px;
+  border: none;
+  color: white;
+
+  padding: 5px 9px;
+  font-weight: 550;
+}
+
+#todo button:hover {
+  background: #7636be;
+}
+
+#list {
+  display: flex;
+  justify-content: space-between;
+  min-width: 100%;
+
+  gap: 5px;
+
+  flex-direction: column;
+
+  word-break: break-word;
+  text-align: center;
+  padding: 5px;
+
+  position: relative;
+  top: -8px;
+}
+
+#list>li {
+  display: flex;
+  text-align: left;
+  background-color: #f3f1f2;
+  border-radius: 3px;
+  padding: 2px 0px 2px 7px;
+  max-width: 100%;
+  min-height: 38px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#list button {
+  background-color: #f3f1f2;
+  color: #f3f1f2;
+  user-select: none;
+}
+
+#list .list button:hover {
+  min-width: 40px;
+  background-color: #ff0800;
+  font-size: 19px;
+}
+
+#listCount {
+  position: relative;
+  bottom: -8px;
+}
+
+#listCount button {
+  background: #9747f1;
+  font-size: 12px;
+}
